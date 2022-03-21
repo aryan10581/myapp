@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    /* border: 2px solid white; */
+}
+.container{
+    background-color: hsl(212, 19%, 15%);
+    border-radius: 30px;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    align-items: center;
+    place-items: center
+    ;
+    text-align: center  ;
+    width: 25vw;
+}
+.para{
+    color: hsl(216, 12%, 54%);
+    text-align: left;
+}
+.rate{
+    background-color: rgb(42, 49, 59);
+    border: none;
+    color: white;
+    padding: 8px;
+    width: 44px;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+    margin-left: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.head{
+    font-size: 28px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: hsl(216, 12%, 54%);
+}
+#star{
+        /* margin: 24px; */
+        margin-top: 24px;
+        margin-left: 0px;
+        margin-bottom: 25px;
+    
+}
+.submit{
+    width: 309px;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#fos:hover{
+    background-color:  hsl(216, 12%, 54%);
+
+}
+#fis:hover{
+    background-color: hsl(25, 97%, 53%);
+
+}
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+@media screen and (max-width:1450px) {
+    .container{
+       width: 40vw;
+    }
+}
+@media screen and (max-width:885px) {
+    .container{
+       width: 65vw;
+    }
+}
+@media screen and (max-width:590px) {
+    .container{
+       width: 80vw;
+    }
+    body{
+        width: 90vw;
+    }
+}
+@media screen and (max-width:450px) {
+    .container{
+       width: 78vw;
+    }
+    body{
+        width: 90vw;
+    }
+    .rate{
+        margin-left: 8px;
+    }
+}
+@media screen and (max-width:400px) {
+    .container{
+       width: 78vw;
+    }
+    body{
+        width: 89vw;
+    }
+    .rate{
+        margin-left:1px;
+    }
+    .submit{
+        width: 240px;
+
+    }
+}
+@media screen and (max-width:330px) {
+    .container{
+       width: 78vw;
+    }
+    body{
+        width: 89vw;
+    }
+    .rate{
+        margin-left:-1px;
+    }
+    .submit{
+        width: 200px;
+
+    }
+}
+
